@@ -5,10 +5,10 @@
             <div class="bg-primary text-white p-5 p-lg-6 rounded-3">
               <h4 class="text-white fs-1 fs-lg-2 mb-1">Sign up for email alerts</h4>
               <p class="text-white">Stay current with our latest insights</p>
-              <form class="mt-4">
+              <form class="mt-4 newsletter">
                 <div class="row align-items-center">
                   <div class="col-md-7 pe-md-0">
-                    <div class="input-group"><input class="form-control" type="email" placeholder="Enter Email Here" /></div>
+                    <div class="input-group"><input class="form-control" type="email" placeholder="Enter Email Here"  name="email"/></div>
                   </div>
                   <div class="col-md-5 mt-3 mt-md-0">
                     <div class="d-grid"><button class="btn btn-warning" type="submit"><span class="text-primary fw-semi-bold">Submit</span></button></div>
@@ -21,12 +21,10 @@
             <div class="row">
               <div class="col-6 col-lg-4 text-white ms-lg-auto">
                 <ul class="list-unstyled">
-                  <li class="mb-3"><a class="text-white" href="contact.html">Contact Us</a></li>
-                  <li class="mb-3"><a class="text-white" href="index.html#!">FAQ</a></li>
-                  <li class="mb-3"><a class="text-white" href="index.html#!">Privacy Policy</a></li>
-                  <li class="mb-3"><a class="text-white" href="index.html#!">Terms of Use</a></li>
-                  <li class="mb-3"><a class="text-white" href="index.html#!">Global Office</a></li>
-                  <li class="mb-3"><a class="text-white" href="index.html#!">Local Office</a></li>
+                  <li class="mb-3"><a class="text-white" href="/bmm/contactus">Contact Us</a></li>
+                  <li class="mb-3"><a class="text-white" href="/bmm/aboutus">About US</a></li>
+                  <li class="mb-3"><a class="text-white" href="/bmm/services">Services </a></li>
+                 
                 </ul>
               </div>
               <div class="col-6 col-sm-5 ms-sm-auto">

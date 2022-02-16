@@ -45,7 +45,7 @@ require 'loader/autoloader.php';
     <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section>
-      <div class="bg-holder overlay" style="background-image:url('assets/img/background-2.jpg');background-position:center bottom;"></div>
+      <div class="bg-holder overlay" style="background-image:url('assets/img/rb.jpg');background-position:center bottom;"></div>
       <!--/.bg-holder-->
       <div class="container">
         <div class="row pt-6" data-inertia='{"weight":1.5}'>
@@ -121,10 +121,10 @@ require 'loader/autoloader.php';
           <div class="card">
             <div class="card-body h-100 p-5">
               <h5 class="mb-3">Write to us</h5>
-              <form>
-                <div class="mb-4"><input class="form-control bg-white" type="text" placeholder="Your Name" required="required" /></div>
-                <div class="mb-4"><input class="form-control bg-white" type="email" placeholder="Email" required="required" /></div>
-                <div class="mb-4"><textarea class="form-control bg-white" rows="11" placeholder="Enter your descriptions here..." required="required"></textarea></div><button class="btn btn-md-lg btn-primary" type="Submit"> <span class="color-white fw-600">Send Now</span></button>
+              <form class="mess">
+                <div class="mb-4"><input class="form-control bg-white" type="text" placeholder="Your Name" required="required" name="name" value=""/></div>
+                <div class="mb-4"><input class="form-control bg-white" type="email" placeholder="Email" required="required" name="email" value=""/></div>
+                <div class="mb-4"><textarea class="form-control bg-white" rows="11" placeholder="Enter your descriptions here..." required="required" name="message"></textarea></div><button class="btn btn-md-lg btn-primary" type="Submit"> <span class="color-white fw-600">Send Now</span></button>
               </form>
             </div>
           </div>
@@ -156,6 +156,10 @@ require 'loader/autoloader.php';
     <script src="vendors/gsap/gsap.js"></script>
     <script src="vendors/gsap/customEase.js"></script>
     <script src="assets/js/theme.js"></script>
+    <!-- yolk js -->
+    <script src="vendors/jquery/jquery.js"></script>
+    <script src="processor.js"></script>
+    
   </body>
 
 </html>

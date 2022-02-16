@@ -44,7 +44,7 @@
     <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section>
-      <div class="bg-holder overlay" style="background-image:url('assets/img/background-2.jpg');background-position:center bottom;"></div>
+      <div class="bg-holder overlay" style="background-image:url('assets/img/st.jpg');background-position:center bottom;"></div>
       <!--/.bg-holder-->
       <div class="container">
         <div class="row pt-6" data-inertia='{"weight":1.5}'>
@@ -106,7 +106,7 @@
               <div class="d-flex align-items-center h-100">
                 <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
                   <div class="overflow-hidden">
-                    <h5 data-zanim-xs='{"delay":0}'>Mineral Water</h5>
+                    <h5 data-zanim-xs='{"delay":0}'>Drinking Water</h5>
                   </div>
                   <div class="overflow-hidden">
                     <p class="mt-3" data-zanim-xs='{"delay":0.1}'>The first sachet water producing company in both Eastern and the Volta region of Ghana West Africa</p>

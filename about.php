@@ -44,7 +44,7 @@ require 'loader/autoloader.php';?>
     <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section>
-      <div class="bg-holder overlay" style="background-image:url('assets/img/background-2.jpg');background-position:center bottom;"></div>
+      <div class="bg-holder overlay" style="background-image:url('assets/img/s4.jpg');background-position:center bottom;"></div>
       <!--/.bg-holder-->
       <div class="container">
         <div class="row pt-6" data-inertia='{"weight":1.5}'>
