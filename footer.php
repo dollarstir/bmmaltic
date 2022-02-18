@@ -53,7 +53,7 @@
     <footer class="footer bg-primary text-center py-4">
       <div class="container">
         <div class="row align-items-center opacity-85 text-white">
-          <div class="col-sm-3 text-sm-start"><a href="index.html"><img src="assets/img/logo-light.png" alt="logo" /></a></div>
+          <div class="col-sm-3 text-sm-start"><a href="index.html"><img src="assets/img/logo.png" alt="logo"  style="width:50px;height:60px;"/></a></div>
           <div class="col-sm-6 mt-3 mt-sm-0">
             <p class="lh-lg mb-0 fw-semi-bold">&copy; Copyright '.date("Y").' BM MALTIC ENT</p>
           </div>
