@@ -1,4 +1,4 @@
-<?php require 'loader/autoloader.php';?>
+<?php require 'loader/autoloader.php'; ?>
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
 
@@ -142,7 +142,9 @@
           </div>
           <div class="row g-0 position-relative mb-4 mb-lg-0">
             <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative" style="min-height:400px;">
-              <div class="bg-holder rounded-ts-lg rounded-te-lg rounded-lg-te-0 rounded-lg-ts-0 rounded-bs-0 rounded-lg-bs-lg " style="background-image:url('assets/img/st.jpg');"></div>
+              <div class="bg-holder rounded-ts-lg rounded-te-lg rounded-lg-te-0 rounded-lg-ts-0 rounded-bs-0 rounded-lg-bs-lg ">
+                <video src="assets/st.mp4" controls></video>
+              </div>
               <!--/.bg-holder-->
             </div>
             <div class="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0 bg-white rounded-bs-lg rounded-lg-bs-0 rounded-be-lg  ">
