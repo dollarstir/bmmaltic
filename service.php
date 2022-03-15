@@ -143,7 +143,7 @@
           <div class="row g-0 position-relative mb-4 mb-lg-0">
             <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative" style="min-height:400px;">
               <div class="bg-holder rounded-ts-lg rounded-te-lg rounded-lg-te-0 rounded-lg-ts-0 rounded-bs-0 rounded-lg-bs-lg ">
-                <video src="assets/st.mp4" controls></video>
+                <video src="assets/st.mp4" poster="assets/st.png" controls ></video>
               </div>
               <!--/.bg-holder-->
             </div>
