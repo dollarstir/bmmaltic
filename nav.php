@@ -11,7 +11,7 @@ say('<div class="bg-primary py-3 d-none d-sm-block text-white fw-bold">
 </div>
 <div class="sticky-top navbar-elixir">
 <div class="container">
-  <nav class="navbar navbar-expand-lg"> <a class="navbar-brand" href="/"><img src="assets/img/logo.png" alt="logo" style="width:50px;height:50px;"/></a><button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavbarCollapse" aria-controls="primaryNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="hamburger hamburger--emphatic"><span class="hamburger-box"><span class="hamburger-inner"></span></span></span></button>
+  <nav class="navbar navbar-expand-lg"> <a class="navbar-brand" href="/bmm"><img src="assets/img/logo.png" alt="logo" style="width:50px;height:50px;"/></a><button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavbarCollapse" aria-controls="primaryNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="hamburger hamburger--emphatic"><span class="hamburger-box"><span class="hamburger-inner"></span></span></span></button>
     <div class="collapse navbar-collapse" id="primaryNavbarCollapse">
       <ul class="navbar-nav py-3 py-lg-0 mt-1 mb-2 my-lg-0 ms-lg-n1">
        <!-- <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
@@ -26,11 +26,11 @@ say('<div class="bg-primary py-3 d-none d-sm-block text-white fw-bold">
             <li><a class="dropdown-item" href="header-selfhosted-video-classic.html">Self-hosted Classic</a></li>
           </ul>
         </li>-->
-        <li class="nav-item dropdown"><a class="nav-link" href="//" role="button">Home</a></li>
-        <li class="nav-item dropdown"><a class="nav-link" href="//services" role="button">Services</a></li>
+        <li class="nav-item dropdown"><a class="nav-link" href="/" role="button">Home</a></li>
+        <li class="nav-item dropdown"><a class="nav-link" href="services" role="button">Services</a></li>
 
-        <li class="nav-item dropdown"><a class="nav-link" href="//aboutus" role="button">About US</a></li>
-        <li class="nav-item dropdown"><a class="nav-link" href="//contactus" role="button">Contact</a></li>
+        <li class="nav-item dropdown"><a class="nav-link" href="aboutus" role="button">About US</a></li>
+        <li class="nav-item dropdown"><a class="nav-link" href="contactus" role="button">Contact</a></li>
         <!--<li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="pages/service.html">Services</a></li>
@@ -61,7 +61,7 @@ say('<div class="bg-primary py-3 d-none d-sm-block text-white fw-bold">
             <li><a class="dropdown-item" href="elements/typography.html">Typography</a></li>
           </ul>
         </li>
-        <li class="nav-item dropdown"><a class="nav-link" href="/contact" role="button">Contact</a></li>-->
+        <li class="nav-item dropdown"><a class="nav-link" href="bmm/contact" role="button">Contact</a></li>-->
       </ul>
     </div>
   </nav>
