@@ -19,7 +19,7 @@ if (isset($_GET['action'])) {
             extract($_POST);
             $mail = new Mail();
 
-            $mail->sendmail('tuceehub.org', 'Request From  BMM Maltic Website', $subject.'. Contact : '.$phone, ['kpin463@gmail.com'], 'info@bmmattic.com', $name);
+            $mail->sendmail('bmmaltic.com', 'Request From  BMM Maltic Website', $subject.'. Contact : '.$phone, ['kpin463@gmail.com'], 'info@bmmattic.com', $name);
             break;
         case 'newsletter':
             extract($_POST);
