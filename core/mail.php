@@ -26,7 +26,7 @@ class Mail extends PHPMailer
             $mail->setFrom($from, $from_name);
             $mail->addReplyTo($reply_to, $reply_to_name);
             foreach ($to as $key) {
-                $mail->addAddress($key);
+                $mail->addAddress($key, 'something');
             }
             $mail->Subject = $subject;
 
