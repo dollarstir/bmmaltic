@@ -10,7 +10,7 @@ class Mail extends PHPMailer
 {
 //    ader/autoloader.php';
 
-    public function sendmail($domain, $subject, $message, $to, $from = 'info@phpyolk.com', $from_name = 'Yolk Mailer', $reply_to = 'info@phpyork.com', $reply_to_name = 'Yolk Mailer')
+    public function sendmail($domain, $subject, $message, $to, $from = 'kpin463@gmail.com', $from_name = 'Yolk Mailer', $reply_to = 'info@phpyork.com', $reply_to_name = 'Yolk Mailer')
     {
         // PHPMailer\PHPMailer\PHPMailer;
         // PHPMailer\PHPMailer\SMTP;
