@@ -12,20 +12,20 @@ if (isset($_GET['action'])) {
             extract($_POST);
             $mail = new Mail();
 
-            $mail->sendmail('tuceehub.org', 'Message From  BMM Maltic Website', $message, ['kpin463@gmail.com'], $email, $name);
+            $mail->sendmail('bmmaltic.com', 'Message From  BMM Maltic Website', $message, ['kpin463@gmail.com'], $email, $name);
             break;
 
         case 'request':
             extract($_POST);
             $mail = new Mail();
 
-            $mail->sendmail('bmmaltic.com', 'Request From  BMM Maltic Website', $subject.'. Contact : '.$phone, ['kpin463@gmail.com'], 'tuceehub', $name);
+            $mail->sendmail('bmmaltic.com', 'Request From  BMM Maltic Website', $subject.'. Contact : '.$phone, ['kpin463@gmail.com', 'dollarsoft463@gmail.com'], 'tuceehub', $name);
             break;
         case 'newsletter':
             extract($_POST);
             $mail = new Mail();
 
-            $mail->sendmail('tuceehub.org', 'Newsletter From  BMM Maltic Website', $email, ['kpin463@gmail.com'], $email, $name);
+            $mail->sendmail('bmmaltic.com', 'Newsletter From  BMM Maltic Website', $email, ['kpin463@gmail.com'], $email, $name);
             break;
     }
 }
