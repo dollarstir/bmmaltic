@@ -26,7 +26,7 @@ class Mail extends PHPMailer
             $mail->setFrom('info@phpyolk.com', $from_name);
             $mail->addReplyTo($reply_to, $reply_to_name);
             foreach ($to as $key) {
-                $mail->addAddress($key, 'Bmmailtic user');
+                $mail->addAddress($key, $key);
             }
             $mail->Subject = $subject;
 
