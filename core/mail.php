@@ -23,7 +23,7 @@ class Mail extends PHPMailer
             $mail->Host = $domain;
 
             // Recipents
-            $mail->setFrom($from_name);
+            $mail->setFrom('kpin463@gmail.com', $from_name);
             $mail->addReplyTo($reply_to, $reply_to_name);
             foreach ($to as $key) {
                 $mail->addAddress($key, 'something');
