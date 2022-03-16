@@ -24,4 +24,8 @@ $router->route('/contactus', function () {
     return view('contact.php');
 });
 
+$router->route('/sitemap', function () {
+    return view('sitemap.xml');
+});
+
 $router->launch($router->action());
